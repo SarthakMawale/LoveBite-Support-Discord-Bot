@@ -1,0 +1,73 @@
+# Privacy Policy — LoveBiteSupport
+
+**Last updated:** July 13, 2026
+
+LoveBiteSupport ("the Bot") is a custom moderation and utility Discord bot developed by Sanerex Development ("we", "us", "our"), a bot development agency, built specifically for the Discord server known as **Lovebite** ("the Server"). This Privacy Policy explains what data the Bot collects, how it is used, and your rights regarding that data.
+
+## 1. Data We Collect
+
+To provide moderation and support functionality, the Bot may store the following data:
+
+**Server (Guild) Data**
+- The Server's ID, and moderation configuration settings (`modconfig`) — e.g. log channels, jail role, mute role.
+- Warn limit configuration (`warnlimits`).
+- Voice role and voice-follow/unfollow preferences (`voicerole`, `voicefollow`).
+
+**Moderation Data**
+- Case numbers and history (`casecounter`, `modhistory`) — actions taken (warn/mute/jail/ban etc.), moderator ID, target user ID, reason, and timestamp.
+- Warnings issued to users (`warnings`) — user ID, moderator ID, reason, timestamp.
+- Jail records (`jaildata`) — user ID, roles removed, jail timestamp, reason.
+- Special mute records (`specialmutes`).
+- Proof/evidence attachments linked to moderation cases (`proofs`) — e.g. message links, image URLs, or text submitted by moderators as evidence.
+
+**User Data**
+- Discord user IDs of members involved in moderation actions (as target or moderator).
+- Discord user IDs used in the keyword→role bind system and voice-follow relationships.
+
+We do **not** collect message content beyond what a server moderator explicitly submits as case evidence (e.g. via a proof/evidence command), and we do not collect passwords, payment details, or any data outside of Discord's own platform.
+
+## 2. How We Use This Data
+
+Collected data is used solely to:
+- Operate moderation features (tracking warnings, cases, jail status, mute status).
+- Maintain per-server configuration so the Bot behaves as configured by server admins.
+- Provide voice channel follow/unfollow and role-bind functionality.
+- Debug and improve the Bot's functionality.
+
+We do not sell, rent, or share your data with third parties for advertising or marketing purposes.
+
+## 3. Data Storage
+
+Data is stored in a private SQLite database hosted on our infrastructure. Access to this database is restricted to the Bot's developer(s). We take reasonable technical measures to protect stored data from unauthorized access, but no system can be guaranteed 100% secure.
+
+## 4. Data Retention
+
+Data is retained for as long as the Bot remains in your server, to preserve moderation history and configuration. If the Bot is removed from a server, associated server-level data (configuration, case history) may be deleted automatically or upon request — see Section 6.
+
+## 5. Third-Party Sharing
+
+We do not share collected data with third parties, except:
+- Where required by law or valid legal request.
+- With Discord itself, as inherently required for the Bot to function (all bots operate through Discord's API).
+
+## 6. Your Rights
+
+- **Server administrators** of Lovebite may request deletion of stored moderation/configuration data by contacting Sanerex Development directly.
+- **Individual users** may request removal of their personal data (e.g. warnings, case references tied to their user ID) from our database, subject to the Server's legitimate moderation record-keeping needs.
+- Data collection stops entirely if the Bot is removed from the Server.
+
+## 7. Children's Privacy
+
+The Bot is intended for use in accordance with Discord's Terms of Service, which requires users to meet Discord's minimum age requirement. We do not knowingly collect data from individuals below this age beyond their public Discord user ID as part of normal moderation logging.
+
+## 8. Changes to This Policy
+
+We may update this Privacy Policy from time to time. Material changes will be reflected by updating the "Last updated" date above. Continued use of the Bot after changes are posted constitutes acceptance of the revised policy.
+
+## 9. Contact
+
+For privacy-related questions, data deletion requests, or concerns, reach out via our support server or contact the developer directly.
+
+---
+
+*By using LoveBiteSupport, you acknowledge that you have read and understood this Privacy Policy.*
